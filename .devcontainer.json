@@ -1,0 +1,16 @@
+{
+    "name": "julia-cs",
+    "build":{
+        "dockerfile": "Dockerfile",
+        "args": {
+
+        }
+    },
+    "extensions": [
+      "julialang.language-julia",
+      "ms-vscode.cpptools",
+      "ms-python.python", 
+      "ms-python.vscode-pylance"
+    ] 
+    //"dockerFile": "Dockerfile"
+}
